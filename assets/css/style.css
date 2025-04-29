@@ -1,0 +1,17 @@
+/* asterisk wild card selector to override default style*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: palevioletred;
+}
+
+main{
+    background-color: skyblue;
+}
+
+footer{
+    background-color:orange;
+}
