@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap");
 /* asterisk wild card selector to override default style*/
 * {
   padding: 0;
@@ -21,11 +21,16 @@ header {
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
-
 }
-
-h1{
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+h1 {
   font-family: oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
 }
 
 main {
