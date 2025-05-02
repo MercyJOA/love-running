@@ -18,6 +18,10 @@ header {
   background-color: rgb(228, 86, 131);
 }
 
+h1{
+  font-family: oswald, sans-serif;
+}
+
 main {
   background-color: rgb(50, 119, 136);
   flex: 1 0 auto;
