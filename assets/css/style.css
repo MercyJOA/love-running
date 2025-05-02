@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 /* asterisk wild card selector to override default style*/
 * {
   padding: 0;
@@ -11,6 +12,7 @@ body {
   flex-direction: column;
   /*generic project styles*/
   color: #3a3a3a;
+  font-family: lato, sans-serif;
 }
 header {
   background-color: rgb(228, 86, 131);
