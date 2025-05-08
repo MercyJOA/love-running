@@ -102,4 +102,8 @@ footer {
     line-height:75px;
     margin: 0 0.5rem;
   }
+  /* main-content */
+  main{
+    margin-top: 89px;
+  }
 }
