@@ -72,6 +72,7 @@ h1 {
 main {
   background-color: rgb(185, 218, 192);
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 
 footer {
