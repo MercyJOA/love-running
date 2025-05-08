@@ -66,7 +66,7 @@ h1 {
 #nav-toggle {
   display: none;
 }
-.nav-toggle-label{
+.nav-toggle-label {
   font-size: 2rem;
 }
 main {
@@ -77,4 +77,29 @@ main {
 
 footer {
   background-color: rgb(211, 172, 205);
+}
+/* media query for laptops and larger srceens*/
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  #menu > li {
+    padding: 1rem;
+  }
+  #menu {
+    display: flex;
+  }
+  .nav-toggle-label {
+    display: none;
+  }
+  #logo{
+    font: size 280%;
+    line-height:75px;
+    margin: 0 0.5rem;
+  }
 }
