@@ -63,6 +63,9 @@ h1,h2,h3 {
   color: #252525;
   font-family: oswald, sans-serif;
 }
+.hidden-heading{
+  display: none;
+}
 #nav-toggle {
   display: none;
 }
